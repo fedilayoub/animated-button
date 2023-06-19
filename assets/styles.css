@@ -1,0 +1,33 @@
+  /* ========= GOOGLE FONT ======== */
+  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Lato:wght@300;700;900&family=Poppins:wght@400;600&display=swap');
+ 
+  /* ========= VARIABLES CSS ======== */
+  :root {
+    /* ====== Colors ===== */
+    /* Color mode hsl (hue, saturation, lightness)*/
+    --primary-color: hsl(260, 100%, 50%);
+    --secondary-color: hsl(190, 100%, 50%);
+    --third-color: hsl(54, 100%, 50%);
+    --fourth-color: hsl(215, 0%, 32%);
+    --botton-color: hsl(260, 100%, 50%);
+    --text-color: #fff;
+    --body-color: hsl(260, 24%, 6%);
+    /* ====== Font and typography ===== */
+    --body-font: 'Poppins', sans-serif;
+    --base-font-size: 1rem;
+  }
+ 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: var(--body-font);
+    font-size: var(--base-font-size);
+    background-color: var(--body-color);
+  }
+
+  a{
+    text-decoration: none;
+  }
